@@ -1,7 +1,9 @@
 .button {
-
+    border: 10px solid green;
+    inline-size: 32px;
+    block-size: 32px;
 }
 
 #play {
-    border: 1px solid blue;
+    border: 10px solid blue;
 }
