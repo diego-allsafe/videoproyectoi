@@ -14,16 +14,18 @@
     <button class="button" id="play"></button>
     <button class="button" id="pause"></button>
     <button>avanzar 10 s</button>
-    <video id='video' controls autoplay muted src="./videos/lofi.mp4" width="400" ></video>
+    <video id='video' poster="./images/poster.jpg" controls muted src="./videos/lofi.mp4" width="400" ></video>
 
     <script>
         const $video = document.querySelector('#video')
         const $play = document.querySelector('#play')
         const $pause = document.querySelector('#pause')
 
-        $play.addEventListener('click',)
+        $play.addEventListener('click', handlePlay)
 
-        function 
+        function handlePlay() {
+            console.log('le diste click al boton de play')
+        }
     </script>
 </body>
 </html>
