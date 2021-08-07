@@ -10,10 +10,16 @@
 <body>
     <h1>Hola mundo!</h1>
     <button class="button" id="backward"></button>
-    <button class="button" id="forwar"></button>
+    <button class="button" id="forward"></button>
     <button class="button" id="play"></button>
-    <button class="button" id="pause">pause</button>
+    <button class="button" id="pause"></button>
     <button>avanzar 10 s</button>
-    <video controls autoplay muted src="./videos/lofi.mp4" width="400" >Video</video>
+    <video id='video' controls autoplay muted src="./videos/lofi.mp4" width="400" ></video>
+
+    <script>
+        const $video = document.querySelector('#video')
+        const $play = document.querySelector('#play')
+        const $pause = document.querySelector('#pause')
+    </script>
 </body>
 </html>
