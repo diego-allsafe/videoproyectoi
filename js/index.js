@@ -1,6 +1,8 @@
 const $video = document.querySelector('#video')
 const $play = document.querySelector('#play')
 const $pause = document.querySelector('#pause')
+const $backward = document.querySelector('#backward')
+const $forward = document.querySelector('#forward')
 
 $play.addEventListener('click', handlePlay)
 $pause.addEventListener('click', handlePause)
