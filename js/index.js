@@ -20,3 +20,10 @@ function handlePause() {
     $play.hidden = false
     console.log('le diste click al boton de pause')
 }
+
+function handleBackward() {
+    $video.play()
+    $play.hidden = true
+    $pause.hidden = false
+    console.log('le diste click al boton de play')
+}
