@@ -27,12 +27,12 @@ function handleBackward() {
     $video.play()
     $play.hidden = true
     $pause.hidden = false
-    console.log('le diste click al boton de play')
+    console.log('para atras 10 segundos')
 }
 
 function handleForward() {
     $video.play()
     $play.hidden = true
     $pause.hidden = false
-    console.log('le diste click al boton de play')
+    console.log('para adelante 10 segundos')    
 }
