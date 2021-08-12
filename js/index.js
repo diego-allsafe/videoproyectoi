@@ -6,6 +6,8 @@ const $forward = document.querySelector('#forward')
 
 $play.addEventListener('click', handlePlay)
 $pause.addEventListener('click', handlePause)
+$backward.addEventListener('click', handleBackward)
+$forward.addEventListener('click', handleForward)
 
 function handlePlay() {
     $video.play()
@@ -22,6 +24,13 @@ function handlePause() {
 }
 
 function handleBackward() {
+    $video.play()
+    $play.hidden = true
+    $pause.hidden = false
+    console.log('le diste click al boton de play')
+}
+
+function handleForward() {
     $video.play()
     $play.hidden = true
     $pause.hidden = false
