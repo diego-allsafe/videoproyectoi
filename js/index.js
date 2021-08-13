@@ -24,10 +24,8 @@ function handlePause() {
 }
 
 function handleBackward() {
-    $video.play()
-    $play.hidden = true
-    $pause.hidden = false
-    console.log('para atras 10 segundos')
+    $video.currentTime = $video.currentTime - 10
+    console.log('para atras 10 segundos', $video.currentTime)
 }
 
 function handleForward() {
