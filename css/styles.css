@@ -10,9 +10,13 @@ body{
     max-inline-size: 900px;
     margin: auto;
 }
+.player{
+    margin-block-start: 100px;
+}
 
 .player video{
     inline-size: 100%;
+    margin-block-start: 100px;
     
 }
 
@@ -23,5 +27,5 @@ body{
 
 
 .player-actions{
-
+    position: absolute;
 }
