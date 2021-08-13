@@ -12,7 +12,7 @@ body{
 }
 .player{
     margin-block-start: 100px;
-    border: 1px solid rgb(188, 170, 170);
+    border: 1px solid red;
     position: relative;
 }
 
