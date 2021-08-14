@@ -60,7 +60,14 @@ body{
     flex: 1;
 }
 
-.player:hover {
-    border: 10px solid red;
+.player-overlay {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: .3s opacity;
+}
+
+.player:hover .player-overlay {
+    opacity: 1;
 }
 
