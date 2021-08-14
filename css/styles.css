@@ -20,6 +20,7 @@ body{
     inline-size: 100%;
     aspect-ratio: 16/9;  
     vertical-align: middle;  
+    object-fit: cover;
 }
 
 .player-title{
@@ -59,5 +60,7 @@ body{
     flex: 1;
 }
 
-
+.player:hover {
+    border: 10px solid red;
+}
 

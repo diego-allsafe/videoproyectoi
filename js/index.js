@@ -56,3 +56,7 @@ function handleInput() {
     $video.currentTime = $progress.value
     console.log($progress.value)
 }
+
+
+
+
