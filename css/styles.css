@@ -18,8 +18,7 @@ body{
 
 .player video{
     inline-size: 100%;
-    margin-block-start: 100px;
-    
+    aspect-ratio: 16/9;    
 }
 
 .player-title{
@@ -40,4 +39,12 @@ body{
     inset-inline-end: 0;
     inset-inline-start: 0;*/
     border: 10px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*z-index: 2;*/
 }
+
+
+
+
