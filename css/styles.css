@@ -12,13 +12,14 @@ body{
 }
 .player{
     margin-block-start: 100px;
-    border: 10px solid red;
+    /*border: 10px solid red;*/
     position: relative;
 }
 
 .player video{
     inline-size: 100%;
-    aspect-ratio: 16/9;    
+    aspect-ratio: 16/9;  
+    vertical-align: middle;  
 }
 
 .player-title{
@@ -37,14 +38,25 @@ body{
     inset-block-end: 0;
     inset-block-start: 0;
     inset-inline-end: 0;
-    inset-inline-start: 0;*/
-    border: 10px solid blue;
+    inset-inline-start: 0;
+    border: 10px solid blue;*/
     display: flex;
     justify-content: center;
     align-items: center;
     /*z-index: 2;*/
 }
 
+.player-progress {
+    position: absolute;
+    inset-block-end: 0;
+    inset-inline: 0;
+    display: flex;
+    padding: 10px;
+}
+
+.player-progress input {
+    flex: 1;
+}
 
 
 
