@@ -25,9 +25,11 @@ body{
 .player-title{
     color: white;
     position: absolute;
+    inset-block-start: 0;
 }
 
 
 .player-actions{
     position: absolute;
+    inset-block-start: 0;
 }
