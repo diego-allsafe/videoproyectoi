@@ -12,7 +12,7 @@ body{
 }
 .player{
     margin-block-start: 100px;
-    border: 1px solid red;
+    border: 10px solid red;
     position: relative;
 }
 
@@ -26,10 +26,18 @@ body{
     color: white;
     position: absolute;
     inset-block-start: 0;
+    inset-inline-start: 20px;
 }
 
 
 .player-actions{
     position: absolute;
+    inset: 0;
+    /*el siguiente es lo mismo
+    que lo que esta arriba de estas lineas*
+    inset-block-end: 0;
     inset-block-start: 0;
+    inset-inline-end: 0;
+    inset-inline-start: 0;*/
+    border: 10px solid blue;
 }
